@@ -1,0 +1,19 @@
+CF-POINTER  V=8000  L=81  (v7 data; refs: CE .985/.994, classifier-store .162/.096)
+
+== seed 0: pretraining 10000 steps ==
+    pretrain step 2000  loss 2.644
+    pretrain step 4000  loss 2.138
+    pretrain step 6000  loss 2.040
+    pretrain step 8000  loss 1.899
+    pretrain step 10000  loss 1.980
+  PRIOR CHECK: 0.33
+  pointer-store:  HELD-OUT cf 0.051   seen-obj cf 1.000   normal 1.000   prior-retention 0.83
+
+== seed 1: pretraining 10000 steps ==
+    pretrain step 2000  loss 2.565
+    pretrain step 4000  loss 2.214
+    pretrain step 6000  loss 2.059
+    pretrain step 8000  loss 1.996
+    pretrain step 10000  loss 2.187
+  PRIOR CHECK: 0.50
+  pointer-store:  HELD-OUT cf 0.044   seen-obj cf 1.000   normal 1.000   prior-retention 0.83

@@ -1,0 +1,18 @@
+CF-DIAG  seed=0  L=81  (explains cfstore7 store arm 0.162/0.096 vs CE 0.985/0.994)
+    pretrain step 1000  loss 2.927
+    pretrain step 2000  loss 2.644
+    pretrain step 3000  loss 2.465
+    pretrain step 4000  loss 2.138
+    pretrain step 5000  loss 2.086
+    pretrain step 6000  loss 2.040
+    pretrain step 7000  loss 2.068
+    pretrain step 8000  loss 1.899
+    pretrain step 9000  loss 2.076
+    pretrain step 10000  loss 1.980
+  prior check 0.33
+   HELD-OUT: store ON  cf 0.162  normal 0.953   |  store OFF cf 0.125  normal 1.000
+   seen-obj: store ON  cf 1.000  normal 1.000   |  store OFF cf 0.076  normal 1.000
+
+  write head at held-out-example assertions, by key type:
+     never-trained key: correct 0.000 (n=640)   emits: chair 223, grass 202, hat 139, snow 33, sky 29
+           trained key: correct 1.000 (n=640)   emits: sky 166, snow 159, grass 159, sun 156

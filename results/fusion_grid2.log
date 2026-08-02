@@ -1,0 +1,11 @@
+
+Q=1  ne=2  L=20  majority-baseline=0.507  steps=1500
+  sample: ? oz cup . joe has a wet ball . oz has a sharp cup . answer zero .
+  d=  16  acc best 0.508  mean 0.499  raw [0.494, 0.495, 0.508]  reg-exact best 0.379
+  d=  32  acc best 0.503  mean 0.495  raw [0.481, 0.503, 0.5]  reg-exact best 0.493
+  d=  64  acc best 1.000  mean 1.000  raw [1.0, 1.0, 1.0]  reg-exact best 1.000
+
+Q=3  ne=6  L=52  majority-baseline=0.450  steps=1500
+  sample: ? mia rock . ? joe toy . ? lily cup . mia has a round rock . lily has a blue cup . oz has a red hat . joe has a big toy . eve has a old box . sam has a wet mug . answer one .
+  d= 256  acc best 1.000  mean 0.647  raw [0.496, 0.446, 1.0]  reg-exact best 0.010
+  d= 512  acc best 0.643  mean 0.510  raw [0.643, 0.447, 0.441]  reg-exact best 0.005

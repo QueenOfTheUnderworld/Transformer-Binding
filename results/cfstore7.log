@@ -1,0 +1,32 @@
+CF-STORE  V=8000  missing-vocab=[]
+  sample: blocks of different colors and shapes . " look , i made a big tower ! " lily said . " it has ten blocks ! " " wow , that's good ! " tom said . " but i made a better tower . it has eleven blocks ! " lily felt sad . she wanted to have the best tower . she looked around and saw a block that tom did not use . it was round and
+
+== seed 0: pretraining 10000 steps ==
+    pretrain step 1000  loss 2.927
+    pretrain step 2000  loss 2.644
+    pretrain step 3000  loss 2.465
+    pretrain step 4000  loss 2.138
+    pretrain step 5000  loss 2.086
+    pretrain step 6000  loss 2.040
+    pretrain step 7000  loss 2.068
+    pretrain step 8000  loss 1.899
+    pretrain step 9000  loss 2.076
+    pretrain step 10000  loss 1.980
+  PRIOR CHECK: 0.33 of facts correct  (WEAK -- interpret with care)
+      ce:  HELD-OUT cf 0.985   seen-obj cf 1.000   normal-probe 1.000/1.000   prior-retention 0.67
+   store:  HELD-OUT cf 0.162   seen-obj cf 1.000   normal-probe 1.000/1.000   prior-retention 0.83
+
+== seed 1: pretraining 10000 steps ==
+    pretrain step 1000  loss 2.878
+    pretrain step 2000  loss 2.565
+    pretrain step 3000  loss 2.365
+    pretrain step 4000  loss 2.214
+    pretrain step 5000  loss 2.255
+    pretrain step 6000  loss 2.059
+    pretrain step 7000  loss 2.155
+    pretrain step 8000  loss 1.996
+    pretrain step 9000  loss 2.147
+    pretrain step 10000  loss 2.187
+  PRIOR CHECK: 0.50 of facts correct  (OK)
+      ce:  HELD-OUT cf 0.994   seen-obj cf 1.000   normal-probe 1.000/1.000   prior-retention 0.83
+   store:  HELD-OUT cf 0.096   seen-obj cf 1.000   normal-probe 1.000/1.000   prior-retention 0.83

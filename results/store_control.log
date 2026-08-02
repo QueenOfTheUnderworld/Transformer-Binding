@@ -1,0 +1,13 @@
+==================================================================
+A. MATCHED-SUPERVISION CONTROL (finding 5)
+   register scaffold, same mapping supervised, NO store
+==================================================================
+  ne= 10  chance 0.100   reg-scaffold 0.095 / 0.103   [store was 0.99, CE was ~chance]
+  ne= 20  chance 0.050   reg-scaffold 0.050 / 0.055   [store was 0.99, CE was ~chance]
+  ne= 40  chance 0.025   reg-scaffold 0.025 / 0.027   [store was 0.99, CE was ~chance]
+
+==================================================================
+B. PER-SLOT REGISTER READOUT at 5,000-step solvers (finding 2)
+==================================================================
+  seed 0:  answer 1.000   per-slot readout 1.000   all-slots-exact 1.000
+  seed 1:  answer 1.000   per-slot readout 1.000   all-slots-exact 1.000

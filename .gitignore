@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pt
+tinystories_train.txt
+
+# generated at run time; the committed copies of our own runs live in results/
+/*.log
+/*.json
