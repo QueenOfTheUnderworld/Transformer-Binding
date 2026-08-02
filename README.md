@@ -1,3 +1,5 @@
+# Disclaimer: Most of this was written by AI, sorry not sorry.
+
 # Binding in Small Transformers: Formation Cost, Scaffolds, and External Stores
 
 Research code for a study of **variable binding** in small (4-layer, ~3–13M
